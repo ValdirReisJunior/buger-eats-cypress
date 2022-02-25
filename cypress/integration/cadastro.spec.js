@@ -22,7 +22,7 @@ describe('Cadastro', () => {
         SignupPage.modalContentShouldBe(expectedMessage)
     })
 
-    it('CPF Incorreto', function () { // implementação CPF inválido
+    it('CPF Incorreto', function () { // implementação CPF inválido.
 
         var deliver = signupFactory.deliver()// criando vaiavel deliver, vindo da massa SinupFactory.js
 
